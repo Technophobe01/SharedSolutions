@@ -74,3 +74,4 @@ cabal.project.freeze
 *.log
 *.tmp
 *.cache
+dist-newstyle/

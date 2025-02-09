@@ -1,0 +1,76 @@
+# Cabal build artifacts
+dist/
+dist-newstyle/
+cabal.project.local
+cabal.project.local~ 
+cabal.sandbox.config
+.stack-work/
+cabal.config
+cabal.project.freeze
+*.hi
+*.dyn_hi
+*.o
+*.dyn_o
+*.prof
+*.aux
+*.hp
+*.eventlog
+.hsenv
+
+# Haskell REPL and GHCi files
+.ghci
+.ghc.environment.*
+.hoogle/
+
+# Stack build artifacts
+.stack-work/
+.stack-bin/
+.stack-setup/
+
+# GHC and profiling files
+*.hi
+*.o
+*.p_o
+*.dyn_o
+*.prof
+*.aux
+*.hp
+*.eventlog
+
+# Executables and binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.out
+
+# Haskell IDE/editor-specific files
+/.hie-bios
+/.hie/
+.ghc.environment.*
+
+# Mac-specific files
+.DS_Store
+
+# Vim and Emacs backup files
+*~
+*.swp
+*.swo
+*.swn
+\#*\#
+
+# VS Code and JetBrains IDEs
+.vscode/
+.idea/
+*.iml
+
+# Debugging tools
+.hs-lint
+.hs-boot
+.hs~ 
+
+# Logs and temp files
+*.log
+*.tmp
+*.cache

@@ -74,3 +74,6 @@ executable challenge-wc
 
     -- Base language which the package is written in.
     default-language: GHC2021
+
+    -- macOS linker fix:	
+    ld-options: -Wl,-no_warn_duplicate_libraries,-dead_strip
